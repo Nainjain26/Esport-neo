@@ -42,7 +42,6 @@ export default function Home() {
       <MainSection
         title="Battle Map"
         description="Capture towers, defend territory, and track squad movements in real-time"
-        mapData={null} // Replace with real map data from backend
       />
       <Sidebar towers={towers} activities={activities} />
     </div>
