@@ -33,7 +33,7 @@ export default function RegisteredTeams({ teams }: RegisteredTeamsProps) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-2">
         {/* Left column */}
         <div className="flex flex-col gap-2">
-          {left.map((team, i) => (
+          {left.map((team) => (
             <div
               key={team.name}
               className={`flex items-center justify-between rounded-xl px-4 py-3 transition ${
@@ -61,7 +61,7 @@ export default function RegisteredTeams({ teams }: RegisteredTeamsProps) {
         </div>
         {/* Right column */}
         <div className="flex flex-col gap-2 md:border-l md:border-[#31394a] md:pl-8">
-          {right.map((team, i) => (
+          {right.map((team) => (
             <div
               key={team.name}
               className={`flex items-center justify-between rounded-xl px-4 py-3 transition ${

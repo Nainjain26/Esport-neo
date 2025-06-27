@@ -1,7 +1,7 @@
 type MainSectionProps = {
   title: string;
   description: string;
-  mapData?: any; 
+  mapData?: string; 
 };
 export default function MainSection({
   title,

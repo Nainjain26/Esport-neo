@@ -58,7 +58,7 @@ export default function MapPage() {
       <MainSection
         title="Battle Map"
         description="Capture towers, defend territory, and track squad movements in real-time"
-        mapData={null}
+        mapData={""}
       />
       <Sidebar towers={towers} activities={activities} />
     </div>

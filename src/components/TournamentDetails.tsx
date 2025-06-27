@@ -26,7 +26,7 @@ export default function TournamentDetails({
   prizePool,
   location,
   entryFee,
-  registration,
+  
   schedule,
   prizes,
   description,
